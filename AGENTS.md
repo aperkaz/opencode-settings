@@ -44,10 +44,15 @@ Instructions for AI coding agents working in this repository.
 
 - Update documentation when changing public APIs or user-facing behavior.
 - Do not generate unnecessary documentation files unless asked.
-- Prefer inline code comments only where the *why* is not obvious from the code.
+- Prefer inline code comments only where the _why_ is not obvious from the code.
 
 ## Communication
 
 - Ask for clarification when requirements are ambiguous rather than guessing.
 - Explain your reasoning when making non-obvious decisions.
 - When multiple valid approaches exist, briefly state the tradeoffs before proceeding.
+
+## Plan Mode
+
+- Make the plan extremely concise. Sacrifice grammar for the sake of concision.
+- At the end of each plan, give me a list of unresolved questions to answer, if any.
